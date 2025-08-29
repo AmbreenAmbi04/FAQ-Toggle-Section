@@ -1,12 +1,13 @@
-import {Route, Routes} from 'react-router-dom';
-import FaqItem from './components/FaqItem';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import FaqList from './components/FaqList';
 
 const App = () => {
-
 return (
-      <Routes>
-        <Route path="/" element={<FaqItem />} />
+  <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<FaqList />} />
       </Routes>
+  </BrowserRouter>
 );
 };
 
