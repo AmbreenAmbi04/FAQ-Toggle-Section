@@ -26,7 +26,7 @@ return (
             </motion.button>
         </motion.div>
         <motion.div>
-            {isOpen && 
+            {isOpen &&
             <motion.p className = "card-text" style={{ marginBottom: "20px", color: "blue", fontSize: "18px" }}>
                 { answer }
             </motion.p>}
